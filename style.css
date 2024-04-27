@@ -14,20 +14,31 @@ body, html {
     background-color: hsl(212, 45%, 89%);
 }
 
+main {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 #content > img {
     width: 375px;
     height: 375px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 #content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background-color: white;
+    margin: auto;
     width: 90%;
     padding: 10px;
-    margin: auto;
-    margin-top: 30%;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.281);
 }
 
@@ -60,7 +71,5 @@ body, html {
 @media screen and (min-width: 510px) {
     #content {
         max-width: 400px;
-        margin: auto;
-        margin-top: 10%;
     }
 }
