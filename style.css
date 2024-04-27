@@ -23,7 +23,7 @@ main {
 }
 
 #content > img {
-    width: 375px;
+    width: 85%;
     height: 375px;
     border-radius: 15px;
 }
@@ -69,7 +69,7 @@ main {
     font-weight: bold;
 }
 
-@media screen and (min-width: 510px) {
+@media screen and (min-width: 600px) {
     #content {
         max-width: 400px;
     }
